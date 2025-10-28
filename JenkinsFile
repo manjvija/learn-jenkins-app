@@ -6,7 +6,6 @@ pipeline {
             agent {
                 dockerContainer {
                     image 'mcr.microsoft.com/playwright:v1.56.1-noble'
-                    reuseNoode true
                 }
             }
             steps {
